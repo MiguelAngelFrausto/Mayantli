@@ -3251,8 +3251,11 @@ button.subscribe:before {
 	display: inline-block;
 	text-align: center
 }
-.social .fb a:hover, .social .tw a:hover, .social .googleplus a:hover, .social .rss a:hover, .social .instagram a:hover, .social .linkedin a:hover {
+.social .fb a:hover, .social .tw a:hover, .social .googleplus a:hover, .social .rss a:hover, .social .instagram a:hover, .social .linkedin a:hover, .social .whatsapp a:hover{
 	background: #39342e
+}
+.social .whatsapp a {
+	background: #1F938C;
 }
 .social .fb a {
 	background: #3C5B9B
@@ -3267,7 +3270,7 @@ button.subscribe:before {
 	background: #FD9F13
 }
 .social .instagram a {
-	background: #3f729b
+	background: #CA3893
 }
 .social .linkedin a {
 	background: #027ba5
@@ -3278,13 +3281,13 @@ button.subscribe:before {
 .social ul {
 	margin: 0;
 	list-style: none;
-	text-align: right;
-	float: right;
+	text-align: center;
+	float: center;
 }
 @media (max-width:640px) {
 .social ul {
 	float: none;
-	text-align: left;
+	text-align: center;
 	margin-top: 15px;
 }
 }
